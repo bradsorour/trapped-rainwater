@@ -7,6 +7,6 @@ public class Client {
     public static void main(String[] args) {
         TrappedWater trappedWater = new TrappedWater(elevationMap);
         int startIndex = trappedWater.getStartIndex();
-        System.out.println("Output: " + trappedWater.getWaterVolumeInElevationMap(startIndex));
+        System.out.println("Water volume: " + trappedWater.getWaterVolumeInElevationMap(startIndex));
     }
 }

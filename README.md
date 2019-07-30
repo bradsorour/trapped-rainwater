@@ -13,7 +13,7 @@ The elevation map is represented in the example is represented by the black line
 ![Example elevation map](https://image.ibb.co/fWXJpy/image1.png)
 
 
-#### Usages
+#### Solution Usages
 
 ```
 ./gradlew solution1"

@@ -11,7 +11,11 @@ public class Client {
         else
             elevationMap = CsvReader.ReadWithBufferedRead(args[0]);
 
-        TrappedWater trappedWater = new TrappedWater(elevationMap);
+        getWaterVolume(elevationMap);
+    }
+
+    private static void getWaterVolume(int[] histogram) {
+        TrappedWater trappedWater = new TrappedWater(histogram);
         int startIndex = trappedWater.getStartIndex();
         System.out.println("Water volume: " + trappedWater.getWaterVolumeInElevationMap(startIndex));
     }

@@ -18,6 +18,8 @@ The elevation map is represented in the example is represented by the black line
 ```
 ./gradlew solution1"
 
+./gradlew solution1 --args="[file_path]"
+
 ./gradlew solution2"
 
 ./gradlew solution2_opt"

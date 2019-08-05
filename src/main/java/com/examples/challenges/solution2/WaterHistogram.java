@@ -14,7 +14,7 @@ public class WaterHistogram {
 
     /* Compute the volume in a subgraph of the histogram. One max is at either
      * start or end (depending on isLeft). Find second tallest, then compute volume
-     * between tallest and second tallest. Then compute volume od subgraph. */
+     * between tallest and second tallest. Then compute volume of subgraph. */
     private int subgraphVolume(int[] histogram, int start, int end, boolean isLeft) {
 
         if (start >= end) return 0;
